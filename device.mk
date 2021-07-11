@@ -235,3 +235,9 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml
+
+
+###############################
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages 
